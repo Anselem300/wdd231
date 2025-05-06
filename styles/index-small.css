@@ -87,7 +87,7 @@ h1 {
     font-size: 1.4rem;
 }
 
-.coursework h2, .country h2, .certificate h2 {
+.coursework h2, .country h2, .Certificate h2 {
     margin: 0 auto;
     font-size: 1.2rem;
     background-color: var(--background-color);

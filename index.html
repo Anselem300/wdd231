@@ -1,14 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Page Commit for WDD231</title>
+    <title>Course Home Page | WDD231</title>
     <meta name="author" content="Anselem Obianuju Samuel">
-    <meta name="description" content="This is my BYU coursework initial commit set up">
+    <meta name="description" content="This is my BYU coursework homepage">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="stylesheet" href="styles/index-small.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <link rel="icon" href="images/profile.webp" type="images/profile-icon">
 </head>
 <body>
-    <h1>First Page Commit for WDD231</h1>
+    <header>
+        <img src="images/profile.webp" alt="My Profile Picture" width="100" height="90">
+        <span>Anselem Samuel</span>
+        <nav>
+            <p class="hamburger" id="menu">☰</p>
+            <ul class="navigation" id="navigation">
+                <li><a href="index.html" title="Home" class="active">Home</a></li>
+                <li><a href="#" title="Chamber">Chamber</a></li>
+                <li><a href="#" title="Final">Final</a></li>
+                <li><a href="#" title="GitHub Profile">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/anselem-samuel-050b34302/" title="LinkedIn">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="column">
+         <section class="coursework">
+            <h2>Course Work</h2>
+            <ul>
+                <li>Web Front-End Development I</li>
+                <li>Career Development</li>
+                <li>Teachings And Doctrines of Jesus Christ</li>
+            </ul>
+         </section>
+         <section class="country">
+            <h2>Rivers State, Nigeria</h2>
+            <figure>
+                <img src="images/rivers-state.jpeg" alt="Rivers State" width="200" height="200">
+                <figcaption>Portharcourt</figcaption>
+            </figure>
+         </section>
+        </div>
+        <div class="course-column">
+         <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="selector">
+                <p id="all">All Courses</p>
+                <p id="cse">CSE Courses</p>
+                <p id="wdd">WDD Courses</p>
+            </div>
+            <p id="course-count"></p>
+            <p id="credit-total"></p>
+            <div id="course-container"></div>
+         </section>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentYear"></span> 🤍 Anselem Obianuju Samuel 🤍 Nigeria</p>
+        <p id="mode">Last Update: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>

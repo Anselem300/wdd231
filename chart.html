@@ -4,15 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chart Creation</title>
+    <meta name="author" content="Anselem Obianuju Samuel">
+    <meta name="description" content="This is a trading site dashboard called WeTraade">
     <script src="scripts/chart.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="styles/chart.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles/chart-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <img src="images/wetrade_logo.JPG" alt="My Profile Picture">
+        <span>Just Earn</span>
+        <nav>
+            <p class="hamburger" id="menu">☰</p>
+            <ul class="navigation" id="navigation">
+                <li><a href="#" title="Home" class="active">Home</a></li>
+                <li><a href="#" title="Trade">Trade</a></li>
+                <li><a href="chart.html" title="Dashboard">Dashboard</a></li>
+                <li><a href="#" title="Deposit">Deposit</a></li>
+                <li><a href="#" title="Account">Account</a></li>
+                <li><a href="#" title="Help">Help</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Earnings Dashboard</h1>
+    <p class="welcome">Welcome to your WeTrade dashboard! Check out the progress and profits you have made so far.</p>
     <canvas id="myChart"></canvas>
-    <h3 id="totalEarnings">Total (Last 30 Days):</h3>
-    <svg width="400" height="300"></svg>
+    <h3 id="totalEarnings">Total Earnings</h3>
+    <!-- <svg width="400" height="300"></svg> -->
+     <div class="dashboard">
+        <section class="earnings">
+            <h4 id="earnings">Earnings</h4>
+            <p>(last 30 days)</p>
+         </section>
+         <section class="payout">
+            <h4 id="payout">Payout</h4>
+            <p>payment made every 21st of each month</p>
+         </section>
+         <section class="visit">
+            <h4 id="visit">Total Page Visit:</h4>
+         </section>
+         <section class="amount">
+            <h4 id="amount">Amount Invested: $75</h4>
+         </section>
+     </div>
+     <p id="congratsMessage"></p>
+     <section class="account">
+        <h5 id="account">Payout Account</h5>
+        <p><a href="#" title="Add Account">Add Account</a></p>
+     </section>
+     <footer>
+        <p>©<span id="currentYear"></span> WeTrade All rights reserved.</p>
+        <nav>
+            <ul class="navbar" id="navigation">
+                <li><a href="#" title="Home" class="active">Home</a></li>
+                <li><a href="#" title="Trade">Trade</a></li>
+                <li><a href="chart.html" title="Dashboard">Dashboard</a></li>
+                <li><a href="#" title="Deposit">Deposit</a></li>
+                <li><a href="#" title="Account">Account</a></li>
+                <li><a href="#" title="Help">Help</a></li>
+            </ul>
+        </nav>
+     </footer>
 </body>
 </html>

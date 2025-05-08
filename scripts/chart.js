@@ -56,6 +56,37 @@ const myChart = new Chart(ctx, {
 
 const total30Days = info.reduce((sum, val) => sum + val, 0);
 document.getElementById("totalEarnings").textContent = `Total Estimated Earnings (Last 30 Days): $${total30Days.toLocaleString()}`;
+document.getElementById("earnings").textContent = `Estimated Earnings: $${total30Days.toLocaleString()}`;
+document.getElementById("payout").textContent = `Payout Due: $${total30Days.toLocaleString()}`;
+
+let visitCount = localStorage.getItem('visit') || 0;
+visitCount = parseInt(visitCount) + 1;
+
+localStorage.setItem('visit', visitCount);
+document.getElementById('visit').textContent = `Total Page View: ${visitCount} 👁`;
+
+const hamButton = document.querySelector("#menu");
+const navigation = document.querySelector("#navigation");
+
+hamButton.addEventListener("click", () => {
+    navigation.classList.toggle("open");
+
+    if (navigation.classList.contains("open")) {
+        hamButton.textContent = "❎";
+    } else {
+        hamButton.textContent = "☰";
+    }
+});
+
+if (total30Days > 1000){
+    document.getElementById("congratsMessage").textContent = `Congrats! You earned $${total30Days.toLocaleString()} in the 
+    last 30 days!`;
+};
+
+const date = new Date();
+let currentYear = document.getElementById("currentYear");
+currentYear.textContent = `${date.getFullYear()}`;
+
 
 // creating graph using D3.js
 // const data = [10, 20, 30, 40, 50];

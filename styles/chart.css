@@ -1,0 +1,25 @@
+h1 {
+    margin: 1rem auto;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#myChart {
+    max-width: 400px;
+    height: 500px;
+    margin: 1rem auto;
+    background-color: rgb(189, 210, 230);
+    box-shadow: 0 0 8px gray;
+    border: 3px solid white;
+    border-radius: 1rem;
+}
+
+h3 {
+    margin: 0 auto;
+    text-align: center;
+    color: antiquewhite;
+}
+
+* {
+    background-color: black;
+}

@@ -1,0 +1,54 @@
+* { 
+    font-family: "Tagesschrift", "Winky Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(64, 4, 143);
+}
+
+#cards {
+    border: 10px solid rgba(193, 184, 216, 0.747);
+    border-radius: .3rem;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+    background-color: rgba(193, 184, 216, 0.747);
+    margin-bottom: 1rem;
+}
+
+.prophets {
+    text-align: center;
+    background-color: rgb(210, 210, 211);
+    margin-bottom: .5rem;
+    padding: 1rem;
+    box-shadow: 0 0 7px gray;
+    border-radius: .3rem;
+}
+
+.prophets p {
+    margin: 0;
+    font-size: .9rem;
+}
+
+.prophets h2 {
+    margin-top: 0;
+    margin-bottom: .3rem;
+    font-size: 1rem;
+}
+
+.prophets img {
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 0 7px gray;
+    margin-top: 1rem;
+}
+ 
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+    font-size: .9rem;
+    color: rgb(64, 4, 143);
+}

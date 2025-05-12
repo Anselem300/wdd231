@@ -20,6 +20,8 @@ h1 {
 .prophets {
     text-align: center;
     background-color: rgb(210, 210, 211);
+    margin-right: .6rem;
+    margin-left: .6rem;
     margin-bottom: .5rem;
     padding: 1rem;
     box-shadow: 0 0 7px gray;

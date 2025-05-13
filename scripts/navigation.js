@@ -5,7 +5,7 @@ hamButton.addEventListener("click", () => {
     navigation.classList.toggle("open");
 
     if (navigation.classList.contains("open")) {
-        hamButton.textContent = "❎";
+        hamButton.textContent = "X";
     } else {
         hamButton.textContent = "☰";
     }

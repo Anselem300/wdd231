@@ -1,0 +1,76 @@
+@media screen and (min-width: 500px){
+    #hamburger{
+        display: none;
+    }
+
+    nav ul {
+        overflow: visible;
+        display: flex;
+        gap: 3rem;
+        align-content: stretch;
+        padding: 1rem;
+    }
+
+    nav ul li a {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .current-menu-item {
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .current-menu-item a{
+        border-bottom: 2px solid whitesmoke;
+        padding: .4rem;
+        border-radius: 1rem;
+    }
+
+    nav ul li a {
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+
+    nav ul li a:hover {
+        background: whitesmoke;
+        border-radius: .5rem;
+        color: black;
+    }
+
+    header h1 {
+        margin-left: -24.5rem;
+        font-size: 1.4rem;
+    }
+
+    header p {
+        margin-left: -24.5rem;
+        font-size: .9rem;
+    }
+
+    .business {
+        margin-left: 3rem;
+    }
+
+    .grid-view {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+        gap: 1rem;
+    }
+
+    .list-view .member-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background: white;
+    }
+
+    .list-view .member-card:nth-child(odd) {
+        background: whitesmoke;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

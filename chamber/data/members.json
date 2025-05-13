@@ -3,7 +3,7 @@
             "name": "Ani Digitals",
             "address": "14 Eagle Avenue, Portharcour, Nigeria.",
             "phone_number": "+234758462290",
-            "url": "https://anidavid.com.ng/website-design-companies-in-port-harcourt/",
+            "url": "https://anidavid.com.ng/website-design-companies-in-port-harcourt",
             "image": "https://digwebx.com/wp-content/uploads/2022/07/website-design.webp",
             "membershipLevel": 1
         },
@@ -11,7 +11,7 @@
             "name": "Dig Web Solutions",
             "address": "1 MaryLand Avenue, Portharcour, Nigeria.",
             "phone_number": "+234758469830",
-            "url": "https://digwebx.com/",
+            "url": "https://digwebx.com",
             "image": "https://digwebx.com/wp-content/uploads/2021/07/1brainwaves-web-design-Montdor.jpg",
             "membershipLevel": 2
         },
@@ -19,7 +19,7 @@
             "name": "Luzoma Microsystem",
             "address": "16 MaryLand Avenue, Portharcour, Nigeria.",
             "phone_number": "+2347584698370",
-            "url": "https://www.luzoma.com/",
+            "url": "https://www.luzoma.com",
             "image": "https://www.luzoma.com/images/img/img_erp.png",
             "membershipLevel": 3
         },
@@ -27,7 +27,7 @@
             "name": "Abuja Real Estate",
             "address": "11 Old Aba Road, Rumuogba, Port Harcourt, Rivers State, Nigeria",
             "phone_number": "+2347378469830",
-            "url": "https://abujarealestate.ng/real-estate-companies-in-port-harcourt/",
+            "url": "https://abujarealestate.ng/real-estate-companies-in-port-harcourt",
             "image": "https://abujarealestate.ng/wp-content/uploads/2025/01/Real-Estate-Companies-in-Port-Harcourt-1024x478.jpg",
             "membershipLevel": 3
         },
@@ -35,7 +35,7 @@
             "name": "Lawpat Technologies",
             "address": " Rumuogba, Port Harcourt, Rivers State, Nigeria",
             "phone_number": "+2347584698359",
-            "url": "https://lawpat.ng/port-harcourt-website-design-for-businesses-and-organizations/",
+            "url": "https://lawpat.ng/port-harcourt-website-design-for-businesses-and-organizations",
             "image": "https://lawpat.ng/wp-content/uploads/2024/06/copywriting.jpg",
             "membershipLevel": 2
         },
@@ -43,7 +43,7 @@
             "name": "Silva Create",
             "address": "19 Agudama Street, D/Line, 500261, Port Harcourt.",
             "phone_number": "+234 (905) 996-5787",
-            "url": "https://www.silvacreate.com/web-design-port-harcourt/",
+            "url": "https://www.silvacreate.com/web-design-port-harcourt",
             "image": "https://www.silvacreate.com/wp-content/uploads/2020/01/small-business-websites-port-harcourt.png",
             "membershipLevel": 3
         },
@@ -51,8 +51,24 @@
             "name": "DigWeb IT Solutions",
             "address": "19 Agudama Street, Port Harcourt, Nigeria",
             "phone_number": "+234 (905) 886-5787",
-            "url": "https://digwebx.com/website-designer-in-port-harcourt-nigeria/",
+            "url": "https://digwebx.com/website-designer-in-port-harcourt-nigeria",
             "image": "https://digwebx.com/wp-content/uploads/2021/07/1brainwaves-web-design-Montdor.jpg",
+            "membershipLevel": 3
+        },
+        {
+            "name": "Lawpat Technologies",
+            "address": " Rumuogba, Port Harcourt, Rivers State, Nigeria",
+            "phone_number": "+2347584698359",
+            "url": "https://lawpat.ng/port-harcourt-website-design-for-businesses-and-organizations",
+            "image": "https://lawpat.ng/wp-content/uploads/2024/06/copywriting.jpg",
+            "membershipLevel": 2
+        },
+        {
+            "name": "Luzoma Microsystem",
+            "address": "16 MaryLand Avenue, Portharcour, Nigeria.",
+            "phone_number": "+2347584698370",
+            "url": "https://www.luzoma.com",
+            "image": "https://www.luzoma.com/images/img/img_erp.png",
             "membershipLevel": 3
         }
  ]

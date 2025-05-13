@@ -193,11 +193,18 @@
    */
   
   button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
-  }
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  appearance: button;
+  padding: revert;
+  border: revert;
+  background: revert;
+  font: inherit;
+  color: inherit;
+}
+
   
   /**
    * Remove the inner border and padding in Firefox.
@@ -288,10 +295,11 @@
    */
   
   [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
-  }
-  
+  appearance: textfield;            /* Standard property */
+  -webkit-appearance: textfield;    /* Vendor-prefixed for Safari/Chrome */
+  outline-offset: -2px;
+}
+
   /**
    * Remove the inner padding in Chrome and Safari on macOS.
    */

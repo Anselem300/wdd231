@@ -27,6 +27,8 @@ header {
 header img {
     flex-shrink: 0;
     border-radius: 1rem;
+    border: 3px solid var(--active-color);
+    box-shadow: 0 0 7px var(--box-shadow);
 }
 
 .title-container {
@@ -71,7 +73,8 @@ header p {
 }
 
 .current-menu-item {
-    background-color: var(--active-color);
+    border-bottom: 2px solid var(--active-color);
+    border-top: 2px solid var(--active-color);
     padding: .5rem;
     border-radius: .5rem;
 }
@@ -83,6 +86,13 @@ header p {
 #hamburger.open::before {
     content: "X";
     font-size: 1.8rem;
+}
+
+.business {
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 1.2rem;
 }
 
 nav {
@@ -102,6 +112,8 @@ nav.open {
 .display-options {
     margin: 0 auto;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
 }
 
 #list-view {
@@ -138,4 +150,47 @@ footer section {
 
 .facebook {
     margin: 1rem;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#member-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.member-card {
+   margin: 1rem;
+   padding: 1rem;
+   background: var(--color3);
+   border-radius: .5rem;
+   border: 2px solid var(--color3);
+   box-shadow: 0 0 7px var(--box-shadow);
+   margin-bottom: .5rem;
+}
+
+.member-card img {
+    width: 100%;
+}
+
+.member-card p {
+    padding: .2rem;
+}
+
+.list-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-view .member-card p {
+    padding: .2rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.list-view .member-card img {
+    display: none;
 }

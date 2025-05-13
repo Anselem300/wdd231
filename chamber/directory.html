@@ -8,6 +8,7 @@
     <meta name="description" content="This website will serve as a resource hub for 
     businesses in the city of Portharcourt. The site will provide information on local events, 
     host networking opportunities, create business directories, and encourage local shopping">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -18,8 +19,61 @@
     <meta property="og:url" content="anselem300.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://champlainsaintlambert.ca/wp-content/uploads/2022/08/Commerce-1-1536x950.png">
     <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directorty-large.css">
+    <script src="scripts/directory.js" defer></script>
 </head>
 <body>
+    <header>
+        <img src="images/chamber-logo.JPG" alt="Chamber logo" width="100" height="50">
+        <div class="title-container">
+         <h1>Portharcourt</h1>
+         <p>Chamber of Commerce</p>
+        </div>
+        <button id="hamburger"></button>
+        <nav id="navigation">
+         <ul class="menu-items">
+            <li><a href="#">Home</a></li>
+            <li class="current-menu-item"><a href="directory.html" title="Directory">Directory</a></li>
+            <li><a href="#" title="Join">Join</a></li>
+            <li><a href="#" title="Discover">Discover</a></li>
+          </ul>
+        </nav>
+    </header>
     
+    <main>
+        <div class="display-options">
+            <button id="list-view">📃List View</button>
+            <button id="grid-view">🔲Grid View</button>
+        </div>
+        <div id="member-container" class="grid-view"></div>
+    </main>
+    <footer>
+        <div>
+            <section>
+              <h4>Portharcourt Chamber of Commerce</h4>
+              <p>10 king Avenue, Portharcourt</p>
+              <p>Info: anselemsamuel97@gmail.com</p>
+              <p>+2349069915069</p>
+            </section>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/anselem-samuel-050b34302/" target="blank">
+                    <img src="images/linkedin-icon.png" alt="Company LinkedIn URL" width="30" height="30">
+                </a>
+                <a class="facebook" href="https://wwww.facebook.com/anselem.samuel.9022" target="blank">
+                    <img src="images/facebook-icon.png" alt="Company Facebook URL" width="30" height="30">
+                </a>
+                <a href="https://wa.me/2349069915069" target="blank">
+                    <img src="images/whatsapp-icon.png" alt="Company WhatsApp URL" width="30" height="30">
+                </a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p>Anselem Obianuju Samuel</p>
+                <p>©<span id="currentYear"></span> Portharcourt Chamber of Commerce</p>
+                <p id="mode">Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

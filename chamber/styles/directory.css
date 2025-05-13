@@ -1,0 +1,141 @@
+*{
+    font-family: 'Winky Sans', 'Tagesschrift', sans-serif;
+    margin: 0;
+}
+:root{
+    --color: rgb(25, 25, 177);
+    --color2: aliceblue;
+    --color3: whitesmoke;
+    --active-color: rgb(8, 8, 36);
+    --box-shadow: gray;
+}
+
+header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    flex-wrap: wrap;
+    background-color: var(--color);
+    color: var(--color2);
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+header img {
+    flex-shrink: 0;
+    border-radius: 1rem;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-left: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+header p {
+    margin: 0;
+    font-size: .8rem;
+}
+
+#hamburger {
+    font-size: 2.8rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: .5rem;
+    margin-left: .5rem;
+    color: var(--color2);
+}
+
+.menu-items li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-items li a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--color3);
+    font-size: 1.1rem;
+}
+
+.current-menu-item {
+    background-color: var(--active-color);
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+#hamburger::before {
+    content: "=";
+}
+
+#hamburger.open::before {
+    content: "X";
+    font-size: 1.8rem;
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav.open {
+    grid-template-rows: 1fr;
+}
+
+.display-options {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#list-view {
+    box-shadow: 0 0 7px var(--box-shadow);
+    margin-right: 1rem;
+}
+
+#grid-view {
+    box-shadow: 0 0 7px var(--box-shadow);
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1rem;
+    background: var(--color);
+    padding: 1rem;
+    color: var(--color2);
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+footer section {
+    margin-bottom: 1rem;
+}
+
+.icons {
+    margin-bottom: 1rem;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.facebook {
+    margin: 1rem;
+}

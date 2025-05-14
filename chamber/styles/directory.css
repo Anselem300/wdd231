@@ -90,9 +90,9 @@ header p {
 
 .business {
     margin: 0 auto;
-    text-align: left;
-    margin-left: 1rem;
+    text-align: center;
     font-size: 1.1rem;
+    padding: .5rem;
 }
 
 nav {

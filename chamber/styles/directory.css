@@ -68,7 +68,7 @@ header p {
 .menu-items li a {
     text-align: center;
     text-decoration: none;
-    color: var(--color3);
+    color: var(--active-color);
     font-size: 1.1rem;
 }
 
@@ -107,6 +107,10 @@ nav ul {
 
 nav.open {
     grid-template-rows: 1fr;
+}
+
+nav.open .menu-items li a{
+    color: var(--color3);
 }
 
 .display-options {

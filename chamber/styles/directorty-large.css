@@ -3,6 +3,14 @@
         display: none;
     }
 
+    .menu-items li a {
+        color: whitesmoke;
+    }
+
+    nav {
+        display: block;
+    }
+
     nav ul {
         overflow: visible;
         display: flex;

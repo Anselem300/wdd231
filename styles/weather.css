@@ -1,0 +1,47 @@
+* {
+    margin: auto;
+    text-align: center;
+}
+
+h1, footer {
+    background-color: rgb(25, 25, 49);
+    color: whitesmoke;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.weather {
+    background-color: antiquewhite;
+    padding: .5rem;
+    max-width: 200px;
+    border: 4px solid gray;
+    border-radius: 1rem;
+    box-shadow: 0 0 6px gray;
+    margin-bottom: 1rem;
+    margin: 2rem auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image figcaption {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+
+.image img {
+   margin-top: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    box-shadow: 0 0 3px ;
+}
+
+footer {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}

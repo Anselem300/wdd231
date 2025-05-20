@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anselem Samuel Chamber of Commerce</title>
     <meta name="author" content="Anseleme Obianuju Samuel">
-    <meta name="description" content="This business directory page provides a list of local businesses and 
-    other organizations that belong to the chamber of commerce">
+    <meta name="description" content="This business Home page provides a list of attention 
+    grabbing information along with community information, weather, calls to action, and business spotlights.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/directorty-large.css">
     <script src="scripts/directory.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/index.js" defer></script>
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -34,20 +34,53 @@
         <button id="hamburger"></button>
         <nav id="navigation">
          <ul class="menu-items">
-            <li><a href="#">Home</a></li>
-            <li class="current-menu-item"><a href="directory.html" title="Directory">Directory</a></li>
+            <li class="current-menu-item"><a href="index.html">Home</a></li>
+            <li><a href="directory.html" title="Directory">Directory</a></li>
             <li><a href="#" title="Join">Join</a></li>
             <li><a href="#" title="Discover">Discover</a></li>
           </ul>
         </nav>
     </header>
     <main>
-        <h1 class="business">Business Directories – Portharcourt Chamber of Commerce</h1>
-        <div class="display-options">
-            <button id="list-view">📃List View</button>
-            <button id="grid-view">🔲Grid View</button>
+        <div class="home">
+          <h1 class="business">Home – Portharcourt Chamber of Commerce</h1>
+          <img src="images/hero-image.jpg" alt="Hero Image of Chamber of Commerce">
+          <h2>Welcome to Portharcourt Chamber of Commerce!</h2>
+          <p>Take part in the benefits of becoming a member today!</p>
+          <a href="#">Become a Member Now</a>
         </div>
-        <div id="member-container" class="grid-view"></div>
+        <article>
+            <h2>Become a member of Portharcourt Chamber of Commerce</h2>
+            <p>We're excited to have you here. Whether you're a tech entrepreneur, developer, startup founder, investor, or enthusiast, you've come to the right place. 
+                Our Chamber is dedicated to driving innovation and supporting the growth of Portharcourt's dynamic tech ecosystem.
+                We foster collaboration, spark innovation, and create pathways for networking, mentorship, and 
+                business development. Through our tech events, digital resources, accelerator programs, and 
+                advocacy efforts, we empower tech ventures of all sizes to scale and compete on national and 
+                global stages. Explore our website to discover how we can support your tech journey—from 
+                hackathons and pitch events to coding bootcamps, funding opportunities, and policy advocacy.</p>
+        </article>
+        <section class="events">
+            <h3>Current Events</h3>
+            <p>Customer Retention and Brand Awareness Seminar 20th, May - 1st, June 2025.</p>
+            <p><strong>Host:</strong> Portharcourt Chamber of Commerce</p>
+        </section>
+        <section id="weather">
+            <h3>Weather In Portharcourt</h3>
+            <div id="current-weather">
+                <h3>Today</h3>
+                <p>The current temperature in Portharcourt, Rivers State is <span id="current-temp"></span></p>
+                <figure class="current">
+                    <img id="weather-icon" src="-" alt="-">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <h3 class="days">3-Days Forecast</h3>
+            <div id="forecast"></div>
+        </section>
+        <h3 class="spotlight">Our Spotlights</h3>
+        <section id="spotlights">
+            <h3 class="spotlight">Our Spotlights</h3>
+        </section>
     </main>
     <footer>
         <div class="footer">

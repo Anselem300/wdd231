@@ -8,6 +8,9 @@
     --color3: whitesmoke;
     --active-color: rgb(8, 8, 36);
     --box-shadow: gray;
+    --link-background: bisque;
+    --weather-color: rgb(238, 235, 43);
+    --forecast-color: rgb(223, 219, 219);
 }
 
 header {
@@ -197,4 +200,113 @@ footer section {
 
 .list-view .member-card img {
     display: none;
+}
+
+.home {
+    text-align: center;
+}
+
+.home img {
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: 0 0 5px var(--box-shadow);
+}
+
+.home h2 {
+    padding: .4rem;
+    font-size: 1rem;
+    border-bottom: 1px solid;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.home p {
+    padding: .4rem;
+    margin-bottom: .5rem;
+}
+
+.home a {
+    background-color: var(--link-background);
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: .6rem;
+    box-shadow: 0 0 5px var(--box-shadow);
+    border: 1px solid var(--link-background);
+}
+
+article {
+    text-align: center;
+    margin: .4rem;
+    margin-top: 1.2rem;
+    background-color: var(--color3);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px ;
+}
+
+article h2 {
+    font-size: 1rem;
+}
+
+.events {
+    text-align: center;
+    padding: .5rem;
+    border-bottom: 1px solid;
+    margin: .5rem;
+}
+
+#weather {
+    text-align: center;
+}
+
+#spotlights {
+    text-align: center;
+}
+
+#current-weather {
+    padding: .5rem;
+    margin: .5rem;
+    background-color: var(--weather-color);
+    border-radius: 1rem;
+}
+
+.days {
+    padding: .5rem;
+    border-bottom: 1px solid;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.details {
+    background-color: var(--forecast-color);
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 6px;
+}
+
+.spotlight {
+    text-align: center;
+    margin-top: 1rem;
+    box-shadow: 0 0 5px;
+    padding: .5rem;
+}
+
+.spotlight-card {
+    margin: 1rem;
+   padding: 1rem;
+   background: var(--color3);
+   border-radius: .5rem;
+   border: 2px solid var(--color3);
+   box-shadow: 0 0 7px var(--box-shadow);
+   margin-bottom: .5rem;
+}
+
+.spotlight-card img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.spotlight-card p {
+    padding: .2rem;
 }

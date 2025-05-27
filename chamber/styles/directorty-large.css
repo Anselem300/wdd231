@@ -154,4 +154,41 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+    form .join {
+        flex: 2;
+        width: min-content;
+    }
+
+    form {
+        width: 350px;
+    }
+
+    .membership-cards {
+        flex: 1;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    #join {
+        margin-left: 3rem;
+        text-align: left;
+    }
+
+    .thankyou {
+        font-size: 1.5rem;
+    }
+
+    .feedback {
+        font-size: 1.1rem;
+    }
 }

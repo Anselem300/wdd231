@@ -187,3 +187,25 @@ footer {
     background-color: var(--color6);
     border-left: 5px solid var(--color5);
 }
+
+dialog {
+    border: 1px solid black;
+    border-radius: .25rem;
+    padding: 1rem;
+    background-color: var(--color2);
+    box-shadow: 0 0 5px gray;
+    width: 90%;
+    max-width: 600px;
+}
+
+::backdrop{
+    background-color: rgba(240, 248, 255, 0.4);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: .5rem 1rem;
+    border: 1px solid rgb(0 0 0/ 10%);
+}

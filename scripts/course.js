@@ -89,11 +89,11 @@ function displayCourses(filterSubject = null) {
         courseDiv.className = `course ${course.completed ? 'completed' : 'not-completed'}`;
 
         courseDiv.innerHTML = `<h3>(${course.subject} ${course.number}) ${course.title}</h3>
-         <p><strong>Credit:</strong> ${course.credits}</p>
-         <p><strong>Description:</strong> ${course.description}</p>
-         <p><strong>Technologies:</strong> ${course.technology.join(',')}</p>
-         <p><strong>Completed:</strong> ${course.completed ? '✔ Completed' : '❌ Not Completed'}</p>
         `;
+
+        courseDiv.addEventListener("click", () => {
+            DisplayCourseDetails(course);
+        });
 
         container.appendChild(courseDiv);
     });
@@ -110,3 +110,31 @@ displayCourses();
 document.getElementById('all').addEventListener('click', () => displayCourses());
 document.getElementById('cse').addEventListener('click', () => displayCourses('CSE'));
 document.getElementById('wdd').addEventListener('click', () => displayCourses('WDD'));
+
+const courseDetails = document.getElementById("course-details");
+
+window.addEventListener("click", (event) => {
+    if (event.target === courseDetails) {
+        courseDetails.close();
+    }
+});
+
+function DisplayCourseDetails(course) {
+    courseDetails.innerHTML = "";
+    courseDetails.innerHTML = `
+    <button id="close-modal">X</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits:</strong> ${course.credits}</p>
+    <p><strong>Certificate:</strong> ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(',')}</p>`;
+
+    const closeModal = document.getElementById("close-modal");
+
+    courseDetails.showModal();
+
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}

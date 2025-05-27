@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join – Portharcourt Chamber of Commerce</title>
+    <meta name="author" content="Anseleme Obianuju Samuel">
+    <meta name="description" content="This page contains information about the benefit of joining the chamber 
+    and a membership application form. There are three membership level options of non-profit, silver, 
+    and gold.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Portharcourt Chamber of Commerce">
+    <meta property="og:description" content="This website will serve as a resource hub for 
+    businesses in the city of Portharcourt. The site will provide information on local events, 
+    host networking opportunities, create business directories, and encourage local shopping">
+    <meta property="og:url" content="https://anselem300.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://champlainsaintlambert.ca/wp-content/uploads/2022/08/Commerce-1-1536x950.png">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directorty-large.css">
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/chamber-logo.jpeg" alt="Chamber logo" width="100" height="50">
+        <div class="title-container">
+         <h1>Portharcourt</h1>
+         <p>Chamber of Commerce</p>
+        </div>
+        <button id="hamburger"></button>
+        <nav id="navigation">
+         <ul class="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html" title="Directory">Directory</a></li>
+            <li class="current-menu-item"><a href="join.html" title="Join">Join</a></li>
+            <li><a href="#" title="Discover">Discover</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="join">Join Portharcourt Chamber of Commerce</h1>
+        <div class="container">
+            <form method="get" action="thankyou.html" class="join">
+              <h2>Memebership Application Form</h2>
+            <label title="Applicant First Name">First Name:
+              <input type="text" name="first-name" title="Applicant First Name" autocomplete="given-name" required>
+            </label>
+            <label title="Applicant Last Name">Last Name:
+              <input type="text" name="last-name" title="Applicant Last Name" autocomplete="family-name" required>
+            </label>
+            <label title="Organizational Title">Title in Organization:
+              <input type="text" name="org-title" title="Organizational Title" autocomplete="organization-title" required pattern="[A-Za-z\s\-]{7,}">
+            </label>
+            <label title="Email Address">Email Address:
+              <input type="email" name="email" title="Email Address" autocomplete="email" required placeholder="example@gmail.com">
+            </label>
+            <label title="Mobile Phone Number">Mobile Phone Number:
+              <input type="tel" name="phone" title="Mobile Phone Number" autocomplete="tel" required >
+            </label>
+            <label title="Business or Organization Name">Business/Organization:
+              <input type="text" name="organization" title="Business or Organization Name" autocomplete="organization" required >
+            </label>
+            <label title="Membership Level">Membership Level:
+              <select name="membership" title="Membership Level">
+                <option value="please select a level" selected disabled>Please select a level</option>
+                <option value="np">NP Membership (Free)</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+              </select>
+            </label>
+            <label title="Business or Organization Description">Business/Organization Description:
+              <textarea name="org_description" title="Business or Organization Description"></textarea>
+            </label>
+            <input type="hidden" id="timestamp" name="timestamp">
+            <input type="submit" value="Submit Application">
+        </form>
+        <!-- Membership cards -->
+          <div class="membership-cards">
+            <h2>Membership Level</h2>
+            <div class="member-cards">
+                <div class="card">
+                    <h3>NP Membership</h3>
+                    <a href="#modal-np" class="open-modal" aria-controls="modal-np" aria-haspopup="dialog">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Bronze Membership</h3>
+                    <a href="#modal-bronze" class="open-modal" aria-controls="modal-bronze" aria-haspopup="dialog">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Silver Membership</h3>
+                    <a href="#modal-silver" class="open-modal" aria-controls="modal-silver" aria-haspopup="dialog">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Gold Membership</h3>
+                    <a href="#modal-gold" class="open-modal" aria-controls="modal-gold" aria-haspopup="dialog">Learn More</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modals -->
+        <div id="modal-np" class="modal" role="dialog" aria-modal="true" aria-labelledby="np-title" hidden>
+          <div class="modal-content">
+            <h2 id="np-title">NP Membership Benefits</h2>
+            <p>No fee. Access to nonprofit events, training, and basic advertising.</p>
+            <button class="close-modal">Close</button>
+          </div>
+        </div>
+        <div id="modal-bronze" class="modal" role="dialog" aria-modal="true" aria-labelledby="bronze-title" hidden>
+          <div class="modal-content">
+            <h2 id="bronze-title">Bronze Membership Benefits</h2>
+            <p>Includes NP benefits + additional training and event discounts.</p>
+            <button class="close-modal">Close</button>
+          </div>
+        </div>
+        <div id="modal-silver" class="modal" role="dialog" aria-modal="true" aria-labelledby="silver-title" hidden>
+          <div class="modal-content">
+            <h2 id="silver-title">Silver Membership Benefits</h2>
+            <p>Includes Bronze benefits + spotlight advertising and priority event access.</p>
+            <button class="close-modal">Close</button>
+          </div>
+        </div>
+        <div id="modal-gold" class="modal" role="dialog" aria-modal="true" aria-labelledby="gold-title" hidden>
+          <div class="modal-content">
+            <h2 id="gold-title">Gold Membership Benefits</h2>
+            <p> Includes Silver benefits + premium advertising and exclusive event invitations.</p>
+            <button class="close-modal">Close</button>
+          </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <section>
+              <h4>Portharcourt Chamber of Commerce</h4>
+              <p>10 king Avenue, Portharcourt</p>
+              <p>Info: anselemsamuel97@gmail.com</p>
+              <p>+2349069915069</p>
+            </section>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/anselem-samuel-050b34302/" target="blank">
+                    <img src="images/linkedin-icon.png" alt="Company LinkedIn URL" width="30" height="30">
+                </a>
+                <a class="facebook" href="https://wwww.facebook.com/anselem.samuel.9022" target="blank">
+                    <img src="images/facebook-icon.png" alt="Company Facebook URL" width="30" height="30">
+                </a>
+                <a href="https://wa.me/2349069915069" target="blank">
+                    <img src="images/whatsapp-icon.png" alt="Company WhatsApp URL" width="30" height="30">
+                </a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p>Anselem Obianuju Samuel</p>
+                <p>©<span id="currentYear"></span> Portharcourt Chamber of Commerce</p>
+                <p id="mode">Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

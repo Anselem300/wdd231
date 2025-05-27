@@ -473,6 +473,7 @@ form h2 {
     text-align: center;
     padding: .5rem;
     padding-top: 0;
+    margin-bottom: .5rem;
 }
 
 .submitted-info {
@@ -486,6 +487,7 @@ form h2 {
     box-shadow: 0 0 6px var(--box-shadow);
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 .submitted-info strong {

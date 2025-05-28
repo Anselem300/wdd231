@@ -493,3 +493,8 @@ form h2 {
 .submitted-info strong {
     color: rgb(219, 214, 214);
 }
+
+option {
+    background-color: rgb(164, 184, 201);
+    border-bottom-right-radius: 1rem;
+}

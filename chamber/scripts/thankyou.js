@@ -6,6 +6,7 @@ document.getElementById("email").textContent = params.get("email") || '';
 document.getElementById("phone").textContent = params.get("phone") || '';
 document.getElementById("position").textContent = params.get("org-title") || '';
 document.getElementById("organization").textContent = params.get("organization") || '';
+document.getElementById("org_description").textContent = params.get("org_description") || '';
 
 const isoTimeStamp = params.get("timestamp");
 let formattedTime = "Not Available";

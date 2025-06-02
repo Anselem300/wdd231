@@ -1,0 +1,36 @@
+*{
+    font-family: "Winky Sans", "Tagesschrift";
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: .2rem;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.first-paragraph {
+    margin-top: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+em {
+    font-weight: 600;
+}
+
+footer {
+    border-top: 2px solid whitesmoke;
+    border-radius: 1rem;
+}
+
+.paragraph {
+    margin-bottom: 0;
+}
+
+.last-paragraph {
+    margin-top: 0;
+}

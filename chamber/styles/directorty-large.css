@@ -202,7 +202,7 @@
     }
 }
 
-@media (min-width: 500px) and (max-width: 640px) {
+@media (min-width: 641px) and (max-width: 1024px) {
    .deck {
     grid-template-columns: 1fr 1fr;      /* tweak width as desired */
     column-gap: .5rem;
@@ -226,7 +226,7 @@
 
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1025px) {
     #interest {
        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }

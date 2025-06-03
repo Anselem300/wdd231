@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Portharcourt Tourist Beach",
+        "address": "Kolabi Creek, Portharcourt",
+        "description": "The Port Harcourt Tourist Beach is a popular attraction located along Kolabi Creek in Port Harcourt, Rivers State, Nigeria. It was created in 1988 and is known for its white sand and is a man-made beach. The beach is a recreational and relaxation spot, and it's also a popular destination for tourists, especially during the CARNIRIV festival and boat regatta. ",
+        "image": "./images/portharcourt-tourist-beach.webp"
+    },
+    {
+        "name": "Rivers State Cultural Center",
+        "address": "Portharcourt, Rivers State",
+        "description": "Various exhibits to be found at the Center include local artifacts from as far back as before the founding of the city of Port Harcourt, African figurines and pottery, as well as a theater where cultural dances and plays are regularly held.",
+        "image": "./images/portharcourt-cultural-center.webp"
+    },
+    {
+        "name": "Isaac Boro Park",
+        "address": "Mile 1, Orogbum, Portharcourt",
+        "description": "Isaac Boro Park is a public park and outdoor recreation area located along the Old GRA neighborhood of Rivers State capital, Port Harcourt. The park is named after Isaac Boro, who was one of the pioneers of minority rights activism in Nigeria.",
+        "image": "./images/isaac-boro-park.webp"
+    },
+    {
+        "name": "Portharcourt Mall",
+        "address": "1 Azikiwe Rd, Portharcourt",
+        "description": "Port Harcourt Mall has many stores, a cinema, and dining spots. It is perfect for shopping and entertainment.",
+        "image": "./images/portharcourt-mall.webp"
+    },
+    {
+        "name": "Golf Estate Nightlife",
+        "address": "84 Forces Ave, Portharcourt",
+        "description": "Golf Estate is known for its beautiful golf course and lively nightlife. It has many bars and restaurants, making it a fun place to visit in the evening.",
+        "image": "./images/ph-golf-estate.webp"
+    },
+    {
+        "name": "Portharcourt Zoo",
+        "address": "R26W+V58, Peter Odili Rd, Trans Amadi, Port Harcourt 500003, Rivers",
+        "description": "Port Harcourt Zoo is a state owned zoological park in Port Harcourt city of Rivers State in Nigeria. The zoo was established in 1974 by military governor Alfred Diete-Spiff and was officially opened to the public on 1 October 1975.",
+        "image": "./images/portharcourt-zoo.webp"
+    },
+    {
+        "name": "Bonny River Cruise",
+        "address": "Bonny, Port Harcourt, Rivers",
+        "description": "A cruise on the Bonny River offers stunning views and a chance to see the natural beauty of the area. It’s a relaxing way to spend an afternoon. Book a Bonny River cruise.",
+        "image": "./images/ph-bonny-river.webp"
+    },
+    {
+        "name": "Portharcourt Pleasure Park",
+        "address": "Army Barracks (Bori Camp), Port Harcourt, Rivers",
+        "description": "Port Harcourt Pleasure Park offers activities like boating, mini-golf, and a playground for kids. It’s a great place for a family day out.",
+        "image": "./images/ph-pleasure-park.webp"
+    }
+]

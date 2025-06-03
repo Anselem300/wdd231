@@ -498,3 +498,74 @@ option {
     background-color: rgb(164, 184, 201);
     border-bottom-right-radius: 1rem;
 }
+
+#interest {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+    margin: .5rem;
+}
+
+.deck {
+    display: grid;
+    box-shadow: 0 2px 6px;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.deck h2 {
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+}
+
+.deck img {
+    width: 100%;
+    border-radius: .3rem;
+    margin-bottom: .4rem;
+}
+
+.deck p {
+    font-family: "Winky Sans";
+    margin-bottom: .5rem;
+}
+
+.deck address {
+    color: blue;
+    margin-bottom: .5rem;
+}
+
+.deck button {
+    padding: .4rem;
+    margin-bottom: .5rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #053252;
+    box-shadow: 0 0 6px #093b5f;
+    color: var(--color2);
+}
+
+#overlay {
+    text-align: center;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    background-color: rgb(170, 221, 170);
+    padding: .4rem;
+    margin: 0 .5rem;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 5px gray;
+}
+
+.visit-message {
+   margin-left: .5rem;
+   font-size: 1rem;
+}
+
+#close-overlay {
+    font-size: 1rem;
+    cursor: pointer;
+}

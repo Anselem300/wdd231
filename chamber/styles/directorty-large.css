@@ -191,4 +191,62 @@
     .feedback {
         font-size: 1.1rem;
     }
+
+    #close-overlay {
+        font-size: 1.1rem;
+    }
+
+    .deck img:hover {
+        box-shadow: 0 0 15px gray;
+        
+    }
+}
+
+@media (min-width: 500px) and (max-width: 640px) {
+   .deck {
+    grid-template-columns: 1fr 1fr;      /* tweak width as desired */
+    column-gap: .5rem;
+    grid-template-areas:
+      "title  title"
+      "image  desc"
+      "image  address"
+      "btn  btn";
+  }
+
+  .deck img      { grid-area: image; }
+  .deck h2       { grid-area: title;  margin-bottom: .3rem; }
+  .deck p        { grid-area: desc;   margin-bottom: .4rem; }
+  .deck address  { grid-area: address;}
+  .deck button   { 
+    grid-area: btn;    
+    justify-self: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+}
+
+@media (min-width: 640px) {
+    #interest {
+       grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+
+    .deck {
+    grid-template-columns: 1fr 1fr; 
+    column-gap: .5rem;
+    grid-template-areas:
+      "title  title"
+      "image  desc"
+      "image  address"
+      "btn  btn";
+  }
+
+  .deck img      { grid-area: image; }
+  .deck h2       { grid-area: title;  margin-bottom: .3rem; }
+  .deck p        { grid-area: desc;   margin-bottom: .4rem; }
+  .deck address  { grid-area: address;}
+  .deck button   { 
+    grid-area: btn;    
+    
+  }
 }

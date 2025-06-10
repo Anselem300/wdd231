@@ -1,0 +1,107 @@
+[
+    {
+        "name": "BetterHelp",
+        "address": "3155 Olsen Dr, Suite 375, San Jose, CA95117-1684, USA",
+        "website": "https://www.betterhelp.com/",
+        "image": "./images/betterhelp.jpg",
+        "impact": "Over 34,000 licensed therapists serving clients in 200+ countries; more than 3 million users"
+    },
+    {
+        "name": "National Alliance on Mental Illness (NAMI)",
+        "address": "4301 Wilson Blvd, Suite 300, Arlington, VA22203, USA",
+        "website": "https://www.nami.org/",
+        "image": "./images/nami.jpg",
+        "impact": "More than 700 state/local affiliates across the US; nationwide helpline and support programs used by millions annually"
+    },
+    {
+        "name": "HealthUnlocked",
+        "address": "147-149 Farringdon Rd, London EC1R 3HN, UK",
+        "website": "https://healthunlocked.com/",
+        "image": "./images/healthunlocked.jpg",
+        "impact": "4 million+ monthly users; 700+ condition-specific communities"
+    },
+    {
+        "name": "Cope Notes",
+        "address": "(Headquarters not publicly listed)",
+        "website": "https://copenotes.com/",
+        "image": "./images/cope_notes.jpg",
+        "impact": "40,000+ users across 97 countries; over 4 million supportive messages sent"
+    },
+    {
+        "name": "Teen Line",
+        "address": "Cedars Sinai Medical Center, Los Angeles, CA, USA ",
+        "website": "https://www.teenline.org/",
+        "image": "./images/teen_line.jpg",
+        "impact": "Serving teens since 1985; volunteer teen-peer crisis support"
+    },
+    {
+        "name": "Crisis Text Line",
+        "address": "New York, NY, USA (HQ for texting service)",
+        "website": "https://www.crisistextline.org/",
+        "image": "./images/crisis_text.jpg",
+        "impact": "Over 9 million support conversations as of March 2024"
+    },
+    {
+        "name": "Brightside Health",
+        "address": "Headquartered in the U.S. (exact address isn’t publicly listed) ",
+        "website": "https://www.brightside.com/",
+        "image": "./images/brightside.jpg",
+        "impact": "Widely used for treating anxiety & depression online; praised for convenience and affordability by users apps.apple.com"
+    },
+    {
+        "name": "Online-Therapy.com",
+        "address": "Not publicly available",
+        "website": "https://www.online-therapy.com/",
+        "image": "./images/online_therapy.jpg",
+        "impact": "Offers structured CBT-based therapy with daily support and workbooks; broadly recognized for evidence-based methodology"
+    },
+    {
+        "name": "Calmerry",
+        "address": "Not publicly available",
+        "website": "https://calmerry.com/",
+        "image": "./images/calmery.jpg",
+        "impact": "Rising popularity in the U.S.; provides therapy for individuals and couples, with flexible chat/video sessions"
+    },
+    {
+        "name": "7 Cups",
+        "address": "Not publicly listed",
+        "website": "https://www.7cups.com/",
+        "image": "./images/7cups.jpg",
+        "impact": "Millions of conversations; peer-reviewed studies show message-based support matches licensed therapy effectiveness"
+    },
+    {
+        "name": "DailyStrength",
+        "address": "Operated by Healthline; no physical address",
+        "website": "https://supportgroups.com/",
+        "image": "./images/daily_strength.jpg",
+        "impact": "500+ support groups—especially active in depression, anxiety, addiction—a top site for peer connection"
+    },
+    {
+        "name": "ReGain (Couples Therapy)",
+        "address": "Operated by BetterHelp (U.S. based)",
+        "website": "https://www.regain.us/",
+        "image": "./images/regain.jpg",
+        "impact": "Over 5,000 therapists, reports show 87-95% positive experience ratings"
+    },
+    {
+        "name": "BPDFamily.com",
+        "address": "Online forum; no listed address",
+        "website": "https://www.bpdfamily.com/",
+        "image": "./images/bpdfamily.jpg",
+        "impact": "Over 100,000 members providing peer support for families affected by borderline personality disorder"
+    },
+    {
+        "name": "Calmerry",
+        "address": "Not publicly available",
+        "website": "https://calmerry.com/",
+        "image": "./images/calmery.jpg",
+        "impact": "Rising popularity in the U.S.; provides therapy for individuals and couples, with flexible chat/video sessions"
+    },
+    {
+        "name": "Cope Notes",
+        "address": "(Headquarters not publicly listed)",
+        "website": "https://copenotes.com/",
+        "image": "./images/cope_notes.jpg",
+        "impact": "40,000+ users across 97 countries; over 4 million supportive messages sent"
+    }
+]

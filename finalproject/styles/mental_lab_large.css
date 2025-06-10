@@ -1,0 +1,196 @@
+@media screen and (min-width: 500px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    header {
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2rem;
+        position: fixed;
+        top: 0;
+        width: 97.8%;
+        z-index: 1000;
+    }
+
+    main {
+    margin-top: 110px;
+    }
+
+
+    .head {
+        margin-left: 1rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .home h2 {
+        font-size: 1.3rem;
+    }
+
+    #navbar {
+        display: flex;
+        max-height: none;
+        overflow: visible;
+        flex-direction: row;
+        flex-basis: auto;
+        box-shadow: none;
+        align-items: center;
+    }
+
+    #navbar ul {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    #navbar ul li a:hover {
+        background-color: whitesmoke;
+        color: black;
+        padding: .09rem;
+        border-radius: .05rem;
+    }
+
+    .home img {
+        margin: 0;
+        display: block;
+    }
+
+    .home {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+    .home h2 {
+        font-size: 1.1rem;
+    }
+
+    .home p {
+        position: absolute;
+        top: 13%;
+    }
+
+    .home .paragraph {
+        position: absolute;
+        top: 10%;
+        background-color: rgb(10, 10, 10, 0.4);
+    }
+
+    .home a p {
+        position: absolute;
+        top: 68%;
+        right: 20%;
+        font-size: 1.1rem;
+        padding: .3rem .3rem;
+        width: 10%;
+    }
+
+    #close-overlay {
+        cursor: pointer;
+    }
+
+    #message-container {
+        box-shadow: none;
+        margin-top: 3rem;
+        box-shadow: 0 0 3px;
+    }
+
+    .resource-card img {
+        width: 90%;
+        height: auto;
+    }
+
+    #resource-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    section h3 {
+        border-bottom: none;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+
+    .grid-view {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .list-view {
+        margin-top: 2rem;
+    }
+
+    .list-view .member-resource {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-bottom: 1.5rem;
+    }
+
+    .display-options button {
+        cursor: pointer;
+    }
+
+    .member-resource {
+        margin-bottom: 0;
+    }
+
+    table {
+        width: 400px;
+        height: auto;
+    }
+
+    .table {
+    box-shadow: none;
+    margin: none;
+    padding: .5rem;
+    margin-top: 0;
+   }
+
+   .cards {
+    margin-bottom: 1rem;
+   }
+
+   .container {
+    display: grid;
+    grid-template-columns: 1fr .8fr;
+    gap: 1rem;
+    margin: 1rem;
+   }
+
+   .research {
+    margin: 1rem;
+   }
+
+   .discoveries {
+    margin-top: 0;
+    margin: 1rem;
+   }
+
+   .discoveries img {
+    width: auto;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: 3px solid;
+    box-shadow: 0 0 10px;
+   }
+
+   .research img {
+    width: auto;
+    border-radius: 1.5rem;
+   }
+
+   .resource a p {
+    width: 10%;
+   }
+}

@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="styles/mental_lab.css">
     <link rel="stylesheet" href="styles/mental_lab_large.css">
     <link rel="icon" href="favicon.ico">
-    <script src="scripts/mental_lab.js" type="module"></script>
+    <script src="scripts/thankyou.js" type="module"></script>
 </head>
 <body>
     <header>
@@ -37,48 +37,24 @@
         <button id="hamburger"></button>
         <nav id="navbar">
             <ul class="menu">
-                <li class="current-menu"><a href="index.html" title="Home">Home</a></li>
+                <li><a href="index.html" title="Home">Home</a></li>
                 <li><a href="resources.html" title="Resources">Resources</a></li>
-                <li><a href="discoveries.html" title="Discoveries">Discoveries</a></li>
+                <li class="current-menu"><a href="discoveries.html" title="Discoveries">Discoveries</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="home">
-            <h2>Home</h2>
-            <div id="message-container">
-                <div id="visit-message" class="visit-message"></div>
-                <span id="close-overlay">x</span>
-            </div>
-            <img src="images/mental_lab_img.jpg" alt="Mental Lab Background Image" loading="lazy">
-            <p>Mental health is a cornerstone of overall well-being, intricately tied to our emotional, psychological, 
-                and social functioning. It shapes how we think, feel, and behave, directly influencing our capacity to 
-                handle stress, form meaningful relationships, and make informed decisions. Globally, one in eight people 
-                live with a mental disorder, with depression and anxiety being the most common (WHO, 2022). These conditions 
-                not only impact emotional wellness but also correlate with increased risk of physical illnesses, such as heart 
-                disease and weakened immune response. Poor mental health has also been linked to lower academic and workplace 
-                performance, greater risk of substance abuse, and reduced life satisfaction. </p>
-            <a href="discoveries.html#cta-section"><p>Book a Session</p></a>
-        </div>
-        <div class="discoveries">
-            <p>In 2025, globally, a significant portion of the population experiences mental health challenges.
-                 Globally, over one in eight people live with a mental disorder. Specifically, anxiety and depression 
-                 are among the most common mental health conditions. Workplace mental health is also a growing concern, 
-                 with a significant number of employees reporting mental health problems and a desire for more workplace 
-                 support.</p>
-            <img src="images/mental_health_stats.png" alt="Mental Health Statistics" loading="lazy">
-            <p>Women tend to report higher rates of depression and anxiety, while men have higher rates of substance use disorders and suicide. However, Mental health issues cost the global economy around $1 trillion every year. </p>
-        </div>
-        <section class="resource">
-            <h3>Resources</h3>
-            <div id="resource-container"></div>
-            <a href="resources.html"><p>Learn More</p></a>
-            <p>In the evolving landscape of mental health support, digital platforms have emerged as powerful allies 
-                for individuals and families navigating emotional and psychological challenges. These online resources 
-                exemplify how community-based networks can deliver crucial support in ways that traditional systems often 
-                cannot. With large and growing communities, such platforms stand as a testament to the increasing demand for 
-                peer-led environments that offer education, empathy, and empowerment.</p>
-        </section>
+        <h1 class="thankyou">We Have Received Your Request</h1>
+        <p class="feedback">We appreciate you for considering us to walk you through this journey. You are never alone! Below is the information we received:</p>
+        <div class="submitted-info">
+            <p><strong>First Name: </strong><span id="first-name"></span></p>
+            <p><strong>Last Name: </strong><span id="last-name"></span></p>
+            <p><strong>Email: </strong><span id="email"></span></p>
+            <p><strong>Mobile Number: </strong><span id="phone"></span></p>
+            <p><strong>Therapy Type: </strong><span id="type"></span></p>
+            <p><strong>Mental State/Challenge: </strong><span id="mental_state"></span></p>
+            <p><strong>Time Submitted: </strong><span id="timestamp"></span></p>
+        </div>        
     </main>
     <footer>
         <div class="footer">

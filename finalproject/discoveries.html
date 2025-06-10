@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discoveries | Mental Lab</title>
+    <meta name="author" content="Anselem Obianuju Samuel">
+    <meta name="description" content="The discoveries page of Mental Lab focuses on mental health impact on people based on researched data from renowed sources.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Mental Lab">
+    <meta property="og:description" content="Dive deeep on the impact of mental health on people based on researched data from renowed sources.">
+    <meta property="og:url" content="https://anselem300.github.io/wdd231/finalproject/index.html">
+    <meta property="og:image" content="https://meded.ucsf.edu/sites/meded.ucsf.edu/files/inline-images/mental%20health%20page.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mental Lab">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <meta name="twitter:description" content="Dive deeep on the impact of mental health on people based on researched data from renowed sources.">
+    <meta name="twitter:image" content="https://meded.ucsf.edu/sites/meded.ucsf.edu/files/inline-images/mental%20health%20page.jpg">
+    <link rel="stylesheet" href="styles/mental_lab.css">
+    <link rel="stylesheet" href="styles/mental_lab_large.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/discoveries.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img src="images/mental_lab_logo.jpg" alt="Mental Lab Logo" width="100" height="60" loading="lazy">
+            <div class="head-text">
+              <h1>Mental Lab</h1>
+              <p>Protect Your Sanity</p>
+            </div>
+        </div>
+        <button id="hamburger"></button>
+        <nav id="navbar">
+            <ul class="menu">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="resources.html" title="Resources">Resources</a></li>
+                <li class="current-menu"><a href="discoveries.html" title="Discoveries">Discoveries</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="home">
+            <h2>Discoveries</h2>
+            <img src="images/mental_lab_img.jpg" alt="Mental Lab Background Image" loading="lazy">
+            <p class="paragraph">Mental health is a fundamental pillar of human well-being, deeply interwoven with our emotional, 
+                psychological, and social health. It governs how we think, feel, and act—shaping our ability to manage stress, 
+                cultivate relationships, and make sound decisions. Globally, an estimated one in eight people are affected by 
+                mental disorders, with depression and anxiety ranking as the most prevalent (WHO, 2022). The consequences extend 
+                far beyond emotional distress: poor mental health significantly increases the risk of chronic physical illnesses, 
+                including cardiovascular disease and compromised immune function. It also undermines educational achievement, 
+                workplace productivity, and overall life satisfaction, while heightening vulnerability to substance abuse. 
+                In essence, the state of our mental health not only reflects individual resilience but also determines the strength 
+                and vitality of our communities and societies. </p>
+            <a href="#cta-section"><p>Book a Session</p></a>
+        </div>
+        <div class="table">
+          <h3 class="mental">Mental Health Impact (2020 - 2021)</h3>
+          <p class="loading">Loading Data....</p>
+          <table id="data-table" style="display: none;">
+             <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Total Value</th>
+                </tr>
+             </thead>
+             <tbody id="data-body"></tbody>
+           </table>
+           <div class="info">
+              <p>Depression prevalence (crude estimate) - percentage (%)</p>
+              <p><strong>Source:</strong> WHO</p>
+           </div>
+        </div>
+        <section id="cta-section">
+            <h4>Book A Session With Us</h4>
+            <div class="container">
+             <div class="request-cards">
+              <h5>Therapy Type</h5>
+                <div class="card">
+                    <h6>Single Session</h6>
+                    <a href="#modal-single" class="open-modal" aria-controls="modal-single" aria-haspopup="dialog">Learn More</a>
+                </div>
+                <div class="card">
+                    <h6>Brief Session</h6>
+                    <a href="#modal-brief" class="open-modal" aria-controls="modal-brief" aria-haspopup="dialog">Learn More</a>
+                </div>
+                <div class="card">
+                    <h6>Short Term</h6>
+                    <a href="#modal-short" class="open-modal" aria-controls="modal-short" aria-haspopup="dialog">Learn More</a>
+                </div>
+                <div class="card">
+                    <h6>Long Term</h6>
+                    <a href="#modal-long" class="open-modal" aria-controls="modal-long" aria-haspopup="dialog">Learn More</a>
+                </div>
+             </div>
+             <form method="get" action="thankyou.html" class="session">
+                <h5>Therapy Session Request Form</h5>
+              <label title="Applicant First Name">First Name:
+              <input type="text" name="first-name" title="Applicant First Name" autocomplete="given-name" required>
+              </label>
+              <label title="Applicant Last Name">Last Name:
+              <input type="text" name="last-name" title="Applicant Last Name" autocomplete="family-name" required>
+              </label>
+              <label title="Email Address">Email Address:
+              <input type="email" name="email" title="Email Address" autocomplete="email" required placeholder="example@gmail.com">
+              </label>
+              <label title="Mobile Phone Number">Mobile Phone Number:
+              <input type="tel" name="phone" title="Mobile Phone Number" autocomplete="tel" required >
+              </label>
+              <label title="Therapy Type">Therapy Type:
+              <select name="type" title="Therapy Type">
+                <option value="please select a level" selected disabled>Please select session type</option>
+                <option value="Single">Single Session</option>
+                <option value="Brief">Brief</option>
+                <option value="Short">Short Term</option>
+                <option value="Long">Long Term</option>
+              </select>
+              </label>
+              <label title="Mental State/Challenge">Mental State/Challenge:
+              <textarea name="mental_state" title="Mental State/Challenge"></textarea>
+              </label>
+              <input type="hidden" id="timestamp" name="timestamp">
+              <input type="submit" value="Send Request">
+             </form>
+          </div>
+          <!-- Modals -->
+        <div id="modal-single" class="modal" role="dialog" aria-modal="true" aria-labelledby="single-title" hidden>
+          <div class="modal-content">
+            <h4 id="single-title">Single Session Therapy</h4>
+            <p>Starting at $80</p>
+            <p>Type: One Time</p>
+            <p>Duration: 1 session (45–90 minutes)</p>
+            <p>Benefits: Quick relief, focused problem-solving, low cost.</p>
+            <p>Notes: Best for specific issues (e.g., decision-making, a crisis check-in).</p>
+            <button class="close-modal">Close</button>
+          </div>
+        </div>
+        <div id="modal-brief" class="modal" role="dialog" aria-modal="true" aria-labelledby="brief-title" hidden>
+          <div class="modal-content">
+            <h4 id="brief-title">Brief Therapy</h4>
+            <p>Starting at $150</p>
+            <p>Type: Specified</p>
+            <p>Duration:  3–12 sessions over 3–12 weeks</p>
+            <p>Benefits: Fast results, goal-oriented, structured.</p>
+            <p>Notes: Ideal for mild anxiety, stress, or specific goals (e.g., Solution-Focused Therapy).</p>
+            <button class="close-modal">Close</button>
+          </div>
+        </div>
+        <div id="modal-short" class="modal" role="dialog" aria-modal="true" aria-labelledby="short-title" hidden>
+          <div class="modal-content">
+            <h4 id="short-title">Short Term Therapy</h4>
+            <p>Starting at $250</p>
+            <p>Type: Ongoing</p>
+            <p>Duration:  12–20 sessions (3–6 months)</p>
+            <p>Benefits: Treats common mental health issues (anxiety, depression), evidence-based.</p>
+            <p>Notes: Common with CBT, often covered by insurance.</p>
+            <button class="close-modal">Close</button>
+          </div>
+        </div>
+        <div id="modal-long" class="modal" role="dialog" aria-modal="true" aria-labelledby="long-title" hidden>
+          <div class="modal-content">
+            <h4 id="long-title">Long Term Therapy</h4>
+            <p>Starting at $300</p>
+            <p>Type: Ongoing</p>
+            <p>Duration:  6 months to several years (20–100+ sessions)</p>
+            <p>Benefits: Deep exploration, emotional growth, supports trauma or complex issues.</p>
+            <p>Notes: Used for personality disorders, trauma, and ongoing life challenges.</p>
+            <button class="close-modal">Close</button>
+          </div>
+        </div>
+        </section>
+        <div class="research">
+            <p>Suicide is a leading cause of death in the United States and a major public health concern. Previous research has shown that identifying and helping people at risk for suicide during regular care visits can help prevent it. Primary care clinics are particularly important in this regard, as research has shown that over 40% of people who died by suicide  were seen in this setting in the month before their death.
+               A recent study funded by the National Institute of Mental Health (NIMH) found that when primary care clinics added suicide care practices to routine visits, suicide attempts dropped by 25% in the 3 months after the visit. The findings highlight how impactful it can be for primary care clinics to take an active role in preventing suicide and help empower health systems to integrate those practices into clinical care.</p>
+            <img src="images/discover_therapy.jpg" alt="Therapy Sesssion" loading="lazy">
+            <p>Primary care clinicians screen for depression during most care visits, and depression screeners often include questions about suicide risk. Prior NIMH-supported research  found that screening for suicidal thoughts and behaviors followed by brief safety planning can reduce the risk of suicide attempts.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <section>
+               <h4>Mental Lab</h4>
+               <p>10 king Avenue, Portharcourt</p>
+               <p><strong>Info: </strong>anselemsamuel97@gmail.com</p>
+               <p><strong>Tel: </strong>+2349069915069</p>
+            </section>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/anselem-samuel-050b34302/" target="blank">
+                    <img src="images/linkedin-icon.png" alt="Company LinkedIn URL" width="30" height="30">
+                </a>
+                <a class="facebook" href="https://wwww.facebook.com/anselem.samuel.9022" target="blank">
+                    <img src="images/facebook-icon.png" alt="Company Facebook URL" width="30" height="30">
+                </a>
+                <a href="https://wa.me/2349069915069" target="blank">
+                    <img src="images/whatsapp-icon.png" alt="Company WhatsApp URL" width="30" height="30">
+                </a>
+            </div>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p>Anselem Obianuju Samuel</p>
+                <p>©<span id="currentYear"></span> | Mental Lab</p>
+                <p>Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

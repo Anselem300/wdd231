@@ -152,7 +152,7 @@
 
     .table {
     box-shadow: none;
-    margin: none;
+    margin: 0;
     padding: .5rem;
     margin-top: 0;
    }
